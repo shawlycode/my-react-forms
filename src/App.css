@@ -24,6 +24,8 @@ textarea{
 
 }
 .container{
+  border-top: solid 10px  rgb(255, 0, 140);
+  border-radius: 5px;
   background-color: grey;
   max-width: 500px;
   margin: auto;
