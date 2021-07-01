@@ -44,22 +44,27 @@ class PersonBio extends Component {
         return (
             <section style={{ margin: "2rem" }}>
                 <div className="container">
-                    <form className="app-wrapper" onSubmit={this.handleSubmit}>
+                    <h1 style={{textAlign:"center" }}>React-Form</h1>
+                    <form onSubmit={this.handleSubmit}>
                         <label htmlFor="">Name:</label>
                         <input type="text" name="name" value={this.state.name} onChange={this.handleChange} />
                         <br />
                         <label htmlFor="">Email:</label>
                         <input type="email" name="email" value={this.state.email} onChange={this.handleChange} />
                         <br />
-                        <label htmlFor="">Password:</label>
+
+                        <label>Password:</label>
                         <input type="password" name="password" value={this.state.password} onChange={this.handleChange} />
                         <br />
+
                         <label htmlFor="">Description:</label>
                         <textarea
                             name="description"
                             placeholder="enter text here" value={this.state.description}
-                            onChange={this.handleChange}></textarea>
+                            onChange={this.handleChange}>    
+                        </textarea>
                         <br />
+                     
                         <button className="btn">Submit</button>
                     </form>
                 </div>
