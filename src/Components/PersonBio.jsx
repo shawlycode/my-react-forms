@@ -4,15 +4,7 @@ class PersonBio extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            persons: [
-                {
-                    name: "micky",
-                    description: "She is a lovely girl",
-                },
-                {
-                    name: "orlando",
-                    description: "he is optimistic and straight forward",
-                },
+            persons: [   
             ],
             name: "",
             email: "",
