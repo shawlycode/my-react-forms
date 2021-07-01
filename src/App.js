@@ -1,4 +1,5 @@
 import PersonBio from './Components/PersonBio';
+import './App.css'
 
 function App() {
   return (
